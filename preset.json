@@ -1,0 +1,42 @@
+{
+  "useTaobaoRegistry": true,
+  "packageManager": "npm",
+  "useConfigFiles": true,
+  "router": false,
+  "vuex": false,
+  "plugins": {},
+  "configs": {
+    "eslintConfig": {
+      "root": true,
+      "env": {
+        "node": true
+      },
+      "extends": [
+        "plugin:vue/essential",
+        "@vue/prettier"
+
+      ],
+      "globals": {
+        "Vue": true,
+        "_": true
+      },
+      "rules": {
+        "no-console": "off",
+        "no-debugger": "off"
+      },
+      "parserOptions": {
+        "parser": "babel-eslint"
+      }
+    },
+    "pages": {
+      "index": {
+        "entry": "src/main.js",
+        "template": "public/index.html",
+        "filename": "index.html",
+        "title": "项目",
+        "chunks": ["chunk-vendors", "chunk-common", "index"]
+      }
+    }
+
+  }
+}
