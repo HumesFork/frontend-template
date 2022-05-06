@@ -1,0 +1,149 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  margin: 0px;
+  padding: 0px;
+  font-size: 12px;
+}
+/* 一级标题 */
+.first-titles {
+  font-size: 18px;
+  font-weight: bold;
+  color: #262626;
+}
+/* 二级标题 */
+.secoend-titles {
+  font-size: 16px;
+  font-weight: bold;
+  color: #595959;
+  margin-top: -10px;
+}
+/* 三级标题 */
+.third-titles {
+  font-size: 14px;
+  font-weight: bold;
+  color: #595959;
+}
+/* 表格表头行高背景色 */
+tr th {
+  background-color: #eee !important;
+  color: #595959 !important;
+  height: 35px !important;
+}
+.el-table {
+  color: #595959 !important;
+}
+/* 删除提示框宽度 */
+.el-popconfirm__main {
+  width: 200px;
+}
+/* 按钮圆角弧度 */
+/* .el-button {
+  // border-radius: 5px !important;
+} */
+/** 
+  锁定文本框背景色和字体
+*/
+.el-input.is-disabled .el-input__inner {
+  background-color: #efefef !important;
+  border-color: #eaeaea !important;
+  color: #595959 !important;
+}
+/** 
+  锁定文本域背景色和字体
+*/
+.el-textarea.is-disabled .el-textarea__inner {
+  background-color: #efefef !important;
+  border-color: #eaeaea !important;
+  color: #595959 !important;
+}
+/* 弹窗标题 */
+.el-dialog__title {
+  font-size: 16px;
+  font-weight: 400;
+  font-weight: bold;
+  color: #595959;
+}
+/* 弹窗头部 */
+.el-dialog__header {
+  padding: 15px 20px 15px !important;
+  border-bottom: 1px solid #eee;
+}
+/* 弹窗内容 */
+.el-dialog__body {
+  padding: 20px 20px !important;
+}
+/* 暂时不抽取（wf） */
+.topLink {
+  z-index: 99;
+  margin-top: -50px;
+  float: right;
+  font-size: 16px !important;
+  right: 10px;
+}
+/* 抽屉删除按钮黑框去除 */
+.el-drawer__close-btn {
+  outline: none;
+}
+/* 暂时放置 */
+.el-picker-panel__sidebar {
+  margin-top: 10px;
+}
+/* 表头居中 */
+th .cell {
+  text-align: center;
+}
+/* 分割线 */
+.dividerTitle {
+  /* margin: 10px 0; */
+  margin: 10px -20px !important;
+  width: 103% !important;
+}
+/* 文本域文字变成微软雅黑 */
+.el-textarea__inner {
+  font-family: auto;
+}
+/* 树里超出宽度字体省略号 */
+.el-tree-node__label {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+/* 分割线------------------------------------- */
+/*sxy */
+
+
+/*wf */
+/* 表格字体字号 */
+.el-table .cell {
+  font-size: 14px !important;
+}
+/* 左侧按钮右边弧度为0px */
+.leftButtonRadius {
+  border-top-right-radius: 0px !important;
+  border-bottom-right-radius: 0px !important;
+}
+/* 右侧按钮zuo边弧度为0px */
+.rightButtonRadius {
+  border-top-left-radius: 0px !important;
+  border-bottom-left-radius: 0px !important;
+}
+/* 表单lebel高度调整为25px*/
+.el-form-item__label {
+  line-height: 25px !important;
+  margin-top: 2px;
+}
+.el-breadcrumb {
+  margin-top: -10px;
+}
+.el-dialog__footer {
+  margin-top:-30px;
+}
+  /* 提示框最大宽度 */
+.el-tooltip__popper {
+  max-width: 200px !important;
+  line-height: 180%;
+}

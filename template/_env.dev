@@ -1,0 +1,5 @@
+# base api
+NODE_ENV = 'dev'
+VUE_APP_BASE_API = 'http://10.1.52.52:18185'
+#sidebar跳转ip
+VUE_APP_LOCALHOST="http://10.1.52.7"

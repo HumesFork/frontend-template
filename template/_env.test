@@ -1,0 +1,3 @@
+# base api
+NODE_ENV = 'test'
+VUE_APP_BASE_API = 'http://puhouddns.imwork.net:33111/gateway'
